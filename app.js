@@ -16,6 +16,10 @@ app.put("/", (req, res) => {
     res.send("Get Req Success!");
 });
 
+app.delete("/", (req, res) => {
+    console.log("GET request successful");
+    res.send("Get Req Success!");
+});
 app.listen(PORT, () => {
     console.log(`Server listening on ${PORT}`);
 });
